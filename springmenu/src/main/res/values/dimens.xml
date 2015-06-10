@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spring_menu_width">200dp</dimen>
+
+    <integer name="angle_right">0</integer>
+    <integer name="angle_down">90</integer>
+    <integer name="angle_left">180</integer>
+    <integer name="angle_up">270</integer>
+</resources>

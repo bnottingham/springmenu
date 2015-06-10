@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn_direction_top_left"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textOff="Top Left"
+            android:textOn="Top Left" />
+
+        <ToggleButton
+            android:id="@+id/btn_direction_top_right"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textOff="Top Right"
+            android:textOn="Top Right"
+            android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btn_direction_bottom_left"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textOff="Bottom Left"
+            android:textOn="Bottom Left" />
+
+        <ToggleButton
+            android:id="@+id/btn_direction_bottom_right"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textOff="Bottom Right"
+            android:textOn="Bottom Right" />
+    </LinearLayout>
+</LinearLayout>

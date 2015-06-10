@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/layout_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:id="@+id/fade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="invisible"/>
+
+    <com.github.bnottingham.springmenu.widget.SpringMenu
+        android:id="@+id/spring_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:spring_expandDirection="top_right"
+        app:spring_menuSize="150dp"
+        app:spring_menuType="fan">
+
+        <include
+            layout="@layout/layout_menu_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.github.bnottingham.springmenu.widget.SpringMenu>
+
+</RelativeLayout>
