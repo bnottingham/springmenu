@@ -76,8 +76,8 @@ dependencies {
 
 #### XML Attribute Spring Menu Config Options
 ```xml
-        <attr name="spring_menuAngle" format="dimension" />
         <attr name="spring_menuSize" format="dimension" />
+        <attr name="spring_menuAngle" format="dimension" />
         <attr name="spring_menuFanStartAngle" format="integer" />
         <attr name="spring_menuFanEndAngle" format="integer" />
 ```
@@ -90,10 +90,16 @@ dependencies {
 }
 ```
 
-## spring_menuSize 
-```
+## Menu Attributes
+
+### spring_menuSize
 This is used by all of the menu types to declare the distance to the origin of the furthest menu button
-```
+
+### spring_menuAngle
+This is used by the straight menu type to declare the angle from the origin to spring out the menu
+
+### spring_menuFanStartAngle, spring_menuFanEndAngle
+This is used by the fan_custom menu type to declare the start and end points for the fan
 
 ## Menu Types
 
