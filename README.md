@@ -117,7 +117,7 @@ Extends in a straight line out from the origin, uses spring_menuAngle to set the
 
 ### Curve
 Extends the menu out from the origin on a curved plane (using the equation x^(1/2)
-![Curve](https://github.com/bnottingham/springmenu/blob/master/screen_shot_1.png)
+![Curve](https://github.com/bnottingham/springmenu/blob/master/screen_shot_3.png)
 
 ## License
 
