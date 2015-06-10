@@ -1,5 +1,6 @@
 # Versatile Spring Menu built on the Facebook rebound library
 
+[![Build Status](https://travis-ci.org/bnottingham/springmenu.svg?branch=master)](https://travis-ci.org/bnottingham/springmenu) 
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.bnottingham/springmenu.svg)](http://search.maven.org/#search|gav|1|g%3A%22com.github.bnottingham%22%20AND%20a%3A%22springmenu%22)
 
 ## Description
