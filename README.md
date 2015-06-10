@@ -83,14 +83,6 @@ dependencies {
         <attr name="spring_menuFanEndAngle" format="integer" />
 ```
 
-## Gradle Dependency
-
-```java
-dependencies {
-    compile 'com.github.bnottingham:springmenu:0.3.0'
-}
-```
-
 ## Menu Attributes
 
 ### spring_menuSize
