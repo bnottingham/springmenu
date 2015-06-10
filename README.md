@@ -109,11 +109,15 @@ Each button springs out in a circular pattern, which each being the same distanc
 ### Fan Custom
 Same as fan, but instead of a 90 degree arch, you can specify the start and end angles for the fan, use  spring_menuFanStartAngle and spring_menuFanEndAngle.  Expand direction is ignored for this type.
 
+![Fan](https://github.com/bnottingham/springmenu/blob/master/screen_shot_2.png)
+
 ### Straight
 Extends in a straight line out from the origin, uses spring_menuAngle to set the direction of the spring.
+![Straight](https://github.com/bnottingham/springmenu/blob/master/screen_shot_1.png)
 
 ### Curve
 Extends the menu out from the origin on a curved plane (using the equation x^(1/2)
+![Curve](https://github.com/bnottingham/springmenu/blob/master/screen_shot_1.png)
 
 ## License
 
